@@ -5,7 +5,7 @@ Practical No:- 04
 Problem Specification:- How to use Boolean, byte, integer, short, long, float, double and character
 
 Implementation:-
-class Exercise04{
+class Exercise4{
 	public static void main(String args[])
 	{
 		boolean isBool=true;
