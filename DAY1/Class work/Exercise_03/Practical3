@@ -5,7 +5,7 @@ Practical No:- 03
 Problem Specification:- Performing  basic arithmetic operations using integers and display the results in Java.
 
 Implementation:- 
-class Exercise03{
+class Exercise3{
 	public static void main(String args[])
 	{
 	int num1=20;
