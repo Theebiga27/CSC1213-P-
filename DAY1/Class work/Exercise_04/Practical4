@@ -1,0 +1,51 @@
+Date:- 12.03.2025
+
+Practical No:- 04
+
+Problem Specification:- How to use Boolean, byte, integer, short, long, float, double and character
+
+Implementation:-
+class Exercise04{
+	public static void main(String args[])
+	{
+		boolean isBool=true;
+		System.out.println("Boolean: "+isBool);
+		
+		byte ByteVal=120;
+		System.out.println("Byte: "+ByteVal);
+		
+		int IntVal=1;
+		System.out.println("Integer: "+IntVal);
+		
+		short ShortVal=14569;
+		System.out.println("Short: "+ShortVal);
+		
+		long LongVal=10000;
+		System.out.println("Long: "+LongVal);
+		
+		float FloatVal=19.56f;
+		System.out.println("Float: "+FloatVal);
+		
+		double DoubleVal=169.456;
+		System.out.println("Double: "+DoubleVal);
+		
+		char CharVal='a';
+		System.out.println("Char: "+CharVal);
+		
+		char CharVall='\u0064';
+		System.out.println("Char: "+CharVall);
+	}
+}
+
+Output:- 
+Boolean: true
+Byte: 120
+Integer: 1
+Short: 14569
+Long: 10000
+Float: 19.56
+Double: 169.456
+Char: a
+Char: d
+
+Conclusion:- I learnt about java's primitive data types and its accurate code.
