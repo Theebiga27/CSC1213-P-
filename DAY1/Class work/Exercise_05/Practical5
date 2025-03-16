@@ -1,0 +1,38 @@
+Date:- 12.03.2025
+
+Practical No:- 05
+
+Problem Specification:- Print some student's details on a new line for clarity
+
+Implementation:- 
+class StuDetails{
+	public static void main(String args[])
+	{
+		
+	System.out.println("Name:Theebiga Pushpakaran");
+	System.out.println("Registration Number:2022/ASP/58");
+	System.out.println("Degree Program: Bachelor of Applied Mathematics and Computing");
+  System.out.println();
+	
+	String Name="Theebiga Pushpakaran";
+	String RegNo="2022/ASP/58";
+	String Degree="Bachelor of Applied Mathematics and Computing";
+	
+	System.out.println("Full Name: "+Name);
+	System.out.println("Registrations Number: "+RegNo);
+	System.out.println("Degree program: "+Degree);
+	}
+}
+
+Output:-
+Name: Theebiga Pushpakaran
+Registration Number: 2022/ASP/58
+Degree Program: Bachelor of Applied Mathematics and Computing
+
+Full Name: Theebiga Pushpakaran
+Registration Number: 2022/ASP/58
+Degree Program: Bachelor of Applied Mathematics and Computing
+
+Conclusion:- I learnt to use  System.out.println() to leave a seperate line after the output when its needed.
+
+ 
