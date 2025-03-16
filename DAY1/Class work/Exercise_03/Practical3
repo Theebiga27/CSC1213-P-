@@ -1,0 +1,29 @@
+Date:- 12.03.2025
+
+Practical No:- 03
+
+Problem Specification:- Performing  basic arithmetic operations using integers and display the results in Java.
+
+Implementation:- 
+class Exercise03{
+	public static void main(String args[])
+	{
+	int num1=20;
+	int num2=15;
+	
+	System.out.println("Addition= "+(num1+num2));
+	System.out.println("Subtraction= "+(num1-num2));
+	System.out.println("Multipication= "+(num1*num2));
+	System.out.println("Division= "+(num1/num2));
+	System.out.println("Mod= "+(num1%num2));
+	}
+}
+
+Output:-
+Addition: 35
+Subtraction: 5
+Multiplication: 300
+Division: 1
+Mod: 5
+
+Conclusion:-I learnt to Use arithmetic operators efficiently. 
