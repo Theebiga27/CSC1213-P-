@@ -1,0 +1,21 @@
+Date:- 12.03.2025
+
+Practical No:- 06
+
+Problem Specification:- How to Print the student's details using \n newline character in java.
+
+Implementation:-
+class Exercise6{
+	public static void main(String args[]){
+	System.out.println("First Name:Theebiga \nLast Name:Pushpakaran \nAddress:Columbuhurai,Jaffna");
+	}
+}
+Output:-
+First Name: Theebiga
+Last Name: Pushpakaran
+Address: Columbuthurai,Jaffna
+
+Conclusion:-I learnt to use \n new line character which allow us to format the output by printing on a separate line.
+ 
+
+ 
