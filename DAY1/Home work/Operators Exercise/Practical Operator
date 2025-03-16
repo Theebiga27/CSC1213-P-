@@ -1,0 +1,126 @@
+Date:- 15.03.2025
+
+Practical No:- 08
+
+Problem Specification:-How to  use various operators in java: unary, logical, relational, assignment, and ternary operators.
+
+Implementation:-
+class Operator{
+	public static void main(String args[]){
+	// UnaryOperation
+	
+		int num=15;
+		
+	System.out.println("The initial value is "+num);
+		
+
+		int a=num++;
+		int b=++num;
+		int c=num--;
+		int d=--num;
+		
+	
+	System.out.println("The post increment value is: "+a);
+	System.out.println("The pre increment value is: "+b);
+	System.out.println("The post decrement value is: "+c);
+	System.out.println("The pre decrement value is: "+d);
+	System.out.println();
+	
+	  
+	// LogicalOperation
+	
+	    boolean p=true;
+		boolean q=false;
+		
+    System.out.println("p && q :"+(p && q));
+	System.out.println("p || q :"+(p || q));
+	System.out.println("!p :"+(!p));
+    System.out.println("!q :"+(!q));
+	System.out.println();
+	
+	
+	// RelationalOperation
+	
+	    int num1=14;
+		int num2=19;
+		
+	System.out.println("The First number is :"+num1);
+	System.out.println("The Second number is :"+num2);
+	
+	System.out.println("num1 == num2  :"+(num1 == num2));
+	
+	System.out.println("num1!=num2 :"+(num1!=num2));
+	
+	System.out.println("num1>num2 :"+(num1>num2));
+	
+	System.out.println("num1>=num2 :"+(num1>=num2));
+	
+	System.out.println("num1<num2 :"+(num1<num2));
+	
+    System.out.println("num1<=num2 :"+(num1<=num2));
+	
+	System.out.println();
+	
+	
+	//AssignmentOperation
+	
+	   int x=15;
+		
+	System.out.println("x += 5 :"+(x+=5));
+		
+	System.out.println("x -= 5 :"+(x-=5));
+		
+	System.out.println("x *= 5 :"+(x*=5));
+		
+	System.out.println("x /= 5 :"+(x/=5));
+		
+	System.out.println("x %= 5 :"+(x%=5));
+	
+	System.out.println();
+		
+		
+	// TernaryOperation	
+	    int r=10,s=25,t=30,maximum;
+		
+	maximum=((r>s)?(r>t)?r:t:(s>t)?s:t);
+		
+	System.out.println("The maximum of three number is "+maximum);
+    System.out.println();	
+	}
+	}
+Output:-
+The initial value is: 15
+The post increment is: 15
+The pre increment is: 17
+The post decrement is: 17
+The pre decrement is: 15
+
+
+p&&q: false
+p||q: true
+!p: false
+q: true
+
+
+
+The First number is: 14
+The Second number is: 19
+num1 == num2  :false
+num1!=num2 :true
+num1>num2 :false
+num1>=num2 :false
+num1<num2 :true
+num1<=num2 :true
+
+
+ x=15;
+ x += 5 :20
+ x -= 5 :15
+ x *= 5 :75
+ x /= 5 :15
+ x %= 5 :0
+
+
+The Maximum of three number is: 30
+
+Conclusion:- I learnt to Use different operators in java and got the output for the operators.
